@@ -1,0 +1,134 @@
+#header {
+    margin: 0 3rem 0 8rem;
+}
+
+#features {
+    background-color: #F0FFF6;
+    padding-top: 3rem;
+}
+
+#cta {
+    background-color: #18FF6D;
+}
+
+body {
+    margin: 0;
+    background-color: #F0FFF6 !important;
+    font-family: 'Outfit', sans-serif !important;
+    color: #5F5959 !important;
+    font-size: 1.3rem !important;
+}
+
+h1 {
+    font-size: 4.5rem !important;
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 900 !important;
+    margin-bottom: 3.5rem !important;
+    color: black !important;
+}
+
+h2 {
+    font-size: 3rem !important;
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 900 !important;
+    color: black !important;
+}
+
+h3 {
+    color: black !important;
+    font-weight: 900 !important;
+    margin-top: 2rem !important;
+}
+
+footer {
+    background-color: #34403A;
+    color: #fff;
+    padding-bottom: 3.5rem;
+}
+
+span.span-title {
+    font-size: 1.7rem;
+    color: #5F5959;
+    margin-bottom: 2rem !important;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.nav-padding {
+    padding: 0 2.5rem;
+}
+
+.home {
+    padding-bottom: 5rem;
+}
+
+.landing-page {
+    margin: 3rem 0 -20rem 0;
+    background-color: #F0FFF6;
+    background-image: -webkit-linear-gradient(-80deg, #F0FFF6 50%, #ffffff 50%);
+    height: 65rem;
+}
+
+.title {
+    margin: 7rem 4rem 0 8rem;
+}
+
+.mockup1 {
+    margin-left: 12rem;
+}
+
+.row {
+    margin-right: 0 !important;
+}
+
+.features-padding {
+    padding: 0 35rem !important;
+}
+
+.features {
+    padding: 5rem 5rem;
+}
+
+.pl-9 {
+    padding-left: 4rem !important;
+}
+
+.cta-margin {
+    margin: 7rem 0 0 7rem;
+    color: black !important;
+}
+
+.btn {
+    background-color: #148A37 !important;
+    margin-top: 2rem !important;
+}
+
+.container {
+    margin-bottom: 2rem !important;
+}
+
+.no-style {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    margin: 0 0.5rem 0 0;
+}
+
+.cta {
+    margin-top: 2rem;
+}
+
+.footer {
+    padding: 5rem 5rem;
+}
+
+.copywrite {
+    font-size: 1.2rem !important;
+    color: #D9DBE1 !important;
+    margin-top: 2rem !important;
+}
