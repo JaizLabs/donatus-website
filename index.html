@@ -4,173 +4,205 @@
 <head>
     <meta charset="UTF-8">
     <title>Donatus</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="public/css/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container-fluid">
-        <section class="home">
-            <header id="header">
-                <div class="navbar">
-                    <img src="/images/logo.png" alt="Logo">
-                    <div>
-                        <span class="nav-padding">Blog</span>
-                        <span class="nav-padding">Privacy</span>
-                        <span class="nav-padding">Discover</span>
-                        <span class="nav-padding">Help center</span>
+<body class="font-outfit">
+
+    <section>
+        <header id="header" class="bg-lightergreen lg:pt-5">
+            <div class="flex lg:block">
+                <div class="flex flex-col lg:flex-row justify-between mx-9">
+                    <img src="public/images/logo.png" alt="Logo" class="w-24 mt-7 lg:mt-0 lg:w-16 lg:ml-7">
+                    <div
+                        class="lg:space-x-9 lg:flex-row lg:text-sm lg:gap-y-0 gap-y-10 lg:no-underline underline hidden lg:block text-4xl nav">
+                        <span class="">Blog</span>
+                        <span class="">Privacy</span>
+                        <span class="">Discover</span>
+                        <span class="">Help center</span>
                     </div>
-                    <div>
-                        <button class="no-style"><img src=" /images/app-store.png" alt=""></button>
-                        <button class="no-style"><img src="/images/google-play.png" alt=""></button>
+                    <div class="invisible lg:visible space-x-6">
+                        <button><img src="public/images/app-store.png" alt=""></button>
+                        <button><img src="public/images/google-play.png" alt=""></button>
                     </div>
                 </div>
-            </header>
-
-            <!-- landing page -->
-
-            <div class="landing-page">
-                <div class="row">
-                    <div class="title col-6">
-                        <h1>Great futures are built with a small charity</h1>
-                        <span class="span-title">Browse and donate to urgent fundraiser for various causes like medical
-                            emergencies,
-                            social
-                            initiatives, personal causes and
-                            more.
-                        </span>
-                        <br>
-                        <button type="button" class="btn btn-primary btn-lg">Start fundraising</button>
-                    </div>
-
-                    <div class="mockup1">
-                        <img src="/images/phonemockup1.png" alt="phonemock-up">
+                <div class="tham tham-e-squeeze tham-w-12 toggle ml-auto mr-10 mt-10 lg:hidden">
+                    <div class="tham-box">
+                        <div class="tham-inner"></div>
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
 
-        <!-- features -->
+        <!-- landing page -->
 
-        <section id="features">
-            <div class="text-center features-padding">
-                <h2>Great futures are built with a small charity</h2>
-                <span class="span-title">Browse and donate to urgent fundraiser for various causes like medical
-                    emergencies, social
+        <div class="w-100 lg:mb-96"
+            style="background-color: #F0FFF6;background-image: -webkit-linear-gradient(-80deg, #F0FFF6 50%, #ffffff 50%);height: 50rem; margin-bottom: -10rem;">
+            <div class="flex lg:flex-row mx-16 lg:text-left flex-col content-center text-center">
+                <div class="flex-1 lg:mt-16">
+                    <h1 class="lg:text-5xl lg:w-128 font-bold text-8xl mb-10">Great futures are built with a small
+                        charity
+                    </h1>
+                    <p class="lg:text-2xl lg:w-2/3 text-4xl text-ash mb-1">Browse and donate to urgent fundraiser
+                        for various
+                        causes
+                        like
+                        medical emergencies,social initiatives, personal causes and more.
+                    </p>
+                    <br>
+                    <button class="bg-darkgreen rounded-lg text-white lg:text-base lg:w-52 lg:h-10 w-72 h-20 text-4xl"
+                        type="button">Start
+                        fundraising</button>
+                </div>
+
+                <div class="lg:visible invisible">
+                    <img src="public/images/phonemockup1.png" alt="phonemock-up">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+
+    <section id="features" class="bg-lightergreen pt-5 lg:mt-10">
+        <div class="text-center lg:mx-48 lg:my-10 lg:px-64 mx-28">
+            <h2 class="lg:text-4xl text-6xl font-bold mb-4">Great futures are built with a small charity</h2>
+            <span class="lg:text-xl text-4xl text-ash">Browse and donate to urgent fundraiser for various causes
+                like medical
+                emergencies, social
+                initiatives, personal causes and more.
+            </span>
+        </div>
+        <div class="lg:flex">
+            <div>
+                <div>
+                    <div class="grid place-items-center text-center py-20">
+                        <img src="public/images/icon1.png" alt="icon1" class="w-40 lg:w-16">
+                        <h3 class="lg:text-2xl text-6xl font-bold my-3">Seek for fund raising</h3>
+                        <span class="lg:text-xl text-4xl px-20 text-ash">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur
+                        </span>
+                    </div>
+
+                    <div class="grid place-items-center text-center">
+                        <img src="public/images/icon2.png" alt="icon2" class="w-40 lg:w-16">
+                        <h3 class="lg:text-2xl text-6xl font-bold my-3">Create campagin</h3>
+                        <span class="lg:text-xl text-4xl px-20 text-ash">
+                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            optio Provident similique accusantium nemo autem.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <img src="public/images/phonemockup2.png" alt="phonemock-up2" class="w-screen">
+            </div>
+
+            <div>
+                <div>
+                    <div class="grid place-items-center text-center py-20">
+                        <img src="public/images/icon3.png" alt="icon3" class="w-40 lg:w-16">
+                        <h3 class="lg:text-2xl text-6xl font-bold my-3">Donate</h3>
+                        <span class="lg:text-xl text-4xl px-20 text-ash">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur
+                        </span>
+                    </div>
+
+                    <div class="lg:pb-0 grid place-items-center text-center pb-20">
+                        <img src="public/images/icon4.png" alt="icon4" class="w-40 lg:w-16">
+                        <h3 class="lg:text-2xl text-6xl font-bold my-3 w-128">Share with friends and family</h3>
+                        <span class="lg:text-xl text-3xl px-20 text-ash">
+                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            optio Provident similique accusantium nemo autem.
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- cta -->
+
+    <section id="cta" class="bg-lightgreen">
+        <div class="lg:flex lg:h-128">
+            <div class="pt-36 pl-20 mr-20">
+                <h2 class="lg:text-4xl lg:w-128 text-6xl font-bold">Great futures are built with a small charity
+                </h2>
+                <p class="lg:w-96 lg:text-xl lg:mt-1 text-4xl mt-4">
+                    Browse and donate to urgent fundraiser for various causes like medical emergencies, social
                     initiatives, personal causes and more.
-                </span>
-            </div>
-            <div class="row mt-5">
-                <div class="col-4 text-center">
-                    <div class="features">
-                        <div class="container">
-                            <img src="/images/icon1.png" alt="icon1">
-                            <h3>Seek for fund raising</h3>
-                            <span>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                molestiae quas vel sint commodi repudiandae consequuntur
-                            </span>
-                        </div>
-
-                        <div class="container">
-                            <img src="/images/icon2.png" alt="icon2">
-                            <h3>Create campagin</h3>
-                            <span>
-                                laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                optio Provident similique accusantium nemo autem.
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4 pl-9">
-                    <img src=" /images/phonemockup2.png" alt="phonemock-up2">
-                </div>
-
-                <div class="col-4 text-center">
-                    <div class="features">
-                        <div class="container">
-                            <img src="/images/icon3.png" alt="icon3">
-                            <h3>Donate</h3>
-                            <span>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                molestiae quas vel sint commodi repudiandae consequuntur
-                            </span>
-                        </div>
-
-                        <div class="container">
-                            <img src="/images/icon4.png" alt="icon4">
-                            <h3>Share with friends and family</h3>
-                            <span>
-                                laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                optio Provident similique accusantium nemo autem.
-                            </span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section id="cta">
-            <div class="row">
-                <div class="col-5 cta-margin">
-                    <h2>Great futures are built with a small charity</h2>
-                    <span>
-                        Browse and donate to urgent fundraiser for various causes like medical emergencies, social
-                        initiatives, personal causes and more.
-                    </span>
-                    <br>
-                    <div class="cta">
-                        <span>Get the app</span>
-                        <br>
-                        <button class="no-style"><img src=" /images/app-store.png" alt=""></button>
-                        <button class="no-style"><img src="/images/google-play.png" alt=""></button>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <img class="mockup3" src="/images/phonemockup3.png" alt="phonemock-up-3">
-                </div>
-                <div class="col-3">
-                    <img class="mockup4" src="/images/phonemockup4.png" alt="phonemock-up4">
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="row footer">
-                <div class="col-10 pl-9">
-                    <img src="/images/footer-logo.png" alt="Logo">
-                    <br>
-                    <div class="footer-item">
-                        <span>Download Now</span>
-                        <span>Licence</span>
-                    </div>
-                    <br>
-                    <span class="">Blog</span>
-                    <span class="footer-margin">Features</span>
-                    <span class="footer-margin">Help center</span>
-                    <span class="footer-margin">Privacy Policy</span>
-                    <br>
-                    <div class="copywrite">
-                        <span>
-                            © 2023 Donatus App. All rights reserved
-                        </span>
-                    </div>
-                </div>
-
-                <div class="col-2">
+                </p>
+                <br>
+                <div class="lg:text-xl mt-10 text-3xl">
                     <span>Get the app</span>
                     <br>
-                    <button class="no-style mt-4"><img src=" /images/app-store.png" alt=""></button>
-                    <br>
-                    <button class="no-style mt-4"><img src="/images/google-play.png" alt=""></button>
+                    <div class="mt-4">
+                        <button class="w-52 lg:w-auto mb-10"><img src="public/images/app-store.png" alt=""
+                                class="w-52 lg:w-auto"></button>
+                        <button class="w-52 lg:w-auto"><img src="public/images/google-play.png" alt=""
+                                class="w-52 lg:w-auto"></button>
+                    </div>
                 </div>
             </div>
-        </footer>
+            <div class="lg:block w-80 hidden">
+                <img src="public/images/phonemockup3.png" alt="phonemock-up-3">
+            </div>
+            <div class="lg:block md:hidden hidden w-80 pt-24">
+                <img src="public/images/phonemockup4.png" alt="phonemock-up4">
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <!-- footer -->
+
+    <footer class="bg-gray text-white">
+        <div class="lg:flex py-20 px-32">
+            <div>
+                <img src="public/images/footer-logo.png" alt="Logo" class="lg:w-16 w-28">
+                <br>
+                <div class="lg:text-xl text-4xl">
+                    <span class="lg:mr-5 mr-10">Download Now</span>
+                    <span>Licence</span>
+                </div>
+                <br>
+                <div class="lg:space-x-9 lg:text-xl lg:flex-row lg:gap-y-0 flex flex-col text-3xl gap-y-4">
+                    <span>Blog</span>
+                    <span>Features</span>
+                    <span>Help center</span>
+                    <span>Privacy Policy</span>
+                    <br>
+                </div>
+                <div class="my-5 lg:text-xl text-3xl">
+                    <span class="text-offwhite">
+                        © 2023 Donatus App. All rights reserved
+                    </span>
+                </div>
+            </div>
+
+            <div class="ml-auto">
+                <span>Get the app</span>
+                <br>
+                <div class="lg:flex-col flex flex-row ">
+                    <button class="w-52 lg:w-auto mt-3 lg:mx-0"><img src="public/images/app-store.png" alt=""
+                            class="w-52 lg:w-auto"></button>
+                    <br>
+                    <button class="w-52 lg:w-auto mt-3 lg:mx-0"><img src="public/images/google-play.png" alt=""
+                            class="w-52 lg:w-auto"></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
 </body>
 
 </html>
