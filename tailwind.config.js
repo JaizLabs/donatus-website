@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './public/images/**/*.{png,jpg,jpeg,gif,svg}'],
+  content: ['./public/index.html', './public/images/**/*.{png,jpg,jpeg,gif,svg}'],
   theme: {
     extend: {
       colors: {
@@ -18,7 +18,8 @@ module.exports = {
         '128': '32rem',
       },
       width: {
-        '128': '32rem'
+        '128': '32rem',
+        '256': '50rem'
       }
     },
   },
