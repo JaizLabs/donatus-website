@@ -16,9 +16,9 @@
     <section>
         <header id="header" class="bg-lightergreen lg:px-20">
             <!-- component -->
-            <nav class="relative px-4 py-4 flex justify-between items-center lg:px-0 lg:py-4">
-                <a class="text-3xl font-bold leading-none" href="#">
-                    <img src="images/logo.webp" alt="Logo" class="w-16 lg:mt-0 lg:w-16">
+            <nav class="relative px-4 py-4 flex justify-between items-center lg:px-0 lg:pt-3">
+                <a class="text-3xl font-bold leading-none ml-9" href="#">
+                    <img src="images/logo.webp" alt="Logo" class="w-16 lg:mt-0 lg:w-16 lg:h-18">
                 </a>
                 <div class="lg:hidden">
                     <button class="navbar-burger flex items-center text-gray p-3">
@@ -28,13 +28,13 @@
                         </svg>
                     </button>
                 </div>
-                <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex
+                <div class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex
                     lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
-                    <li><a class="text-lg text-ash hover:text-gray-500" href="#">Blog</a></li>
-                    <li><a class="text-lg text-ash hover:text-gray-500" href="#">Privacy</a></li>
-                    <li><a class="text-lg text-ash hover:text-gray-500" href="#">Discover</a></li>
-                    <li><a class="text-lg text-ash hover:text-gray-500" href="#">Help center</a></li>
-                </ul>
+                    <a class="text-base text-ash hover:text-gray-500" href="#">Blog</a>
+                    <a class="text-base text-ash hover:text-gray-500" href="#">Privacy</a>
+                    <a class="text-base text-ash hover:text-gray-500" href="#">Discover</a>
+                    <a class="text-base text-ash hover:text-gray-500" href="#">Help center</a>
+                </div>
                 <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 transition duration-200" href="#"><button><img
                             src="images/app-store.webp" alt="apple-download-button"></button></a>
                 <a class=" hidden lg:inline-block text-sm text-white font-bold transition duration-200"
@@ -96,8 +96,8 @@
 
         <div class="w-100"
             style="background-color: #F0FFF6;background-image: -webkit-linear-gradient(-80deg, #F0FFF6 50%, #ffffff 50%);height: 50rem; margin-bottom: -5rem;">
-            <div class="flex lg:flex-row mx-20 lg:text-left flex-col content-center text-center">
-                <div class="flex-1 mt-2 space-y-8 lg:mt-24 ">
+            <div class="flex lg:flex-row mx-28 lg:text-left flex-col content-center text-center">
+                <div class="flex-1 mt-2 space-y-8 lg:mt-20">
                     <h1 class="font-bold text-4xl mb-10 lg:text-5xl lg:w-128 lg:leading-tight">Great futures are built
                         with a small
                         charity
@@ -109,13 +109,22 @@
                         medical emergencies,social initiatives, personal causes and more.
                     </p>
                     <br>
-                    <button class="bg-darkgreen rounded-lg text-white w-72 h-20 text-2xl lg:text-base lg:w-52 lg:h-10"
+                    <button
+                        class="bg-darkgreen rounded-lg hidden text-white w-72 h-20 text-2xl lg:block lg:text-base lg:w-52 lg:h-10"
                         type="button">Start
                         fundraising</button>
                 </div>
 
-                <div class="lg:visible invisible">
-                    <img src="images/phonemockup1.webp" alt="phonemock-up">
+                <div class="lg:visible">
+                    <div class="flex">
+                        <img src="images/phonemockup1.webp" alt="phonemock-up">
+                        <div class="self-center justify-self-start lg:hidden">
+                            <button
+                                class="bg-darkgreen rounded-2xl text-white w-72 h-20 text-2xl lg:text-base lg:w-52 lg:h-10"
+                                type="button">Start
+                                fundraising</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,7 +132,7 @@
 
     <!-- features -->
 
-    <section id="features" class="bg-lightergreen pt-5  lg:pb-10">
+    <section id="features" class="mt-96 bg-lightergreen pt-5 lg:mt-0 lg:pb-10">
         <div class="text-center lg:mx-48 lg:my-10 lg:px-64 mx-28">
             <h2 class="lg:text-4xl text-4xl font-bold mb-4">Great futures are built with a small charity</h2>
             <span class="lg:text-xl text-2xl text-ash">Browse and donate to urgent fundraiser for various causes
@@ -139,8 +148,8 @@
                         <img src="images/icon1.webp" alt="icon1" class="w-28 lg:w-16">
                         <h3 class="lg:text-2xl text-4xl font-bold my-3">Seek for fund raising</h3>
                         <span class="lg:text-xl text-2xl px-20 text-ash">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                            molestiae quas vel sint commodi repudiandae consequuntur
+                            Users can create and share personal fundraising campaigns on the platform, seeking donations
+                            for specific causes.
                         </span>
                     </div>
 
@@ -148,8 +157,9 @@
                         <img src="images/icon2.webp" alt="icon2" class="w-28 lg:w-16">
                         <h3 class="lg:text-2xl text-4xl font-bold my-3">Create campagin</h3>
                         <span class="lg:text-xl text-2xl px-20 text-ash">
-                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                            optio Provident similique accusantium nemo autem.
+                            Users can create customized fundraising campaigns with their own messaging and branding to
+                            attract donors
+
                         </span>
                     </div>
                 </div>
@@ -165,8 +175,8 @@
                         <img src="images/icon3.webp" alt="icon3" class="w-28 lg:w-16">
                         <h3 class="lg:text-2xl text-4xl font-bold my-3">Donate</h3>
                         <span class="lg:text-xl text-2xl px-20 text-ash">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                            molestiae quas vel sint commodi repudiandae consequuntur
+                            Users can easily make donations to a variety of causes and organizations directly through
+                            the platform.
                         </span>
                     </div>
 
@@ -174,8 +184,8 @@
                         <img src="images/icon4.webp" alt="icon4" class="w-28 lg:w-16">
                         <h3 class="text-4xl font-bold my-3 w-128 lg:text-2xl">Share with friends and family</h3>
                         <span class="text-2xl px-20 text-ash lg:text-xl">
-                            laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                            optio Provident similique accusantium nemo autem.
+                            Users can easily share their personal fundraising campaigns with their social network to
+                            increase visibility and donations
                         </span>
                     </div>
                 </div>
